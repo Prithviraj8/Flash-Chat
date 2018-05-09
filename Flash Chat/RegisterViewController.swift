@@ -8,6 +8,7 @@
 import UIKit
 import Firebase
 import SVProgressHUD
+
 class RegisterViewController: UIViewController {
     var messageArray : [Message] = [Message]()
 
@@ -22,10 +23,11 @@ class RegisterViewController: UIViewController {
         super.viewDidLoad()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    override func viewDidAppear(_ animated: Bool) {
+        if (Auth.auth().currentUser != nil) {
+            performSegue(withIdentifier: "ContactCell", sender: nil)
+        }
     }
-    
 
   
     @IBAction func registerPressed(_ sender: AnyObject) {
