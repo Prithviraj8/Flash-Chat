@@ -35,6 +35,11 @@ class ContactsViewController: UIViewController, UITableViewDelegate, UITableView
 
     }
     
+    
+    func getContact() {
+        
+    }
+    
     @IBAction func logout(_ sender: Any) {
         dismiss(animated: true, completion: nil)
         

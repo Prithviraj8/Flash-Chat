@@ -49,7 +49,6 @@ class RegisterViewController: UIViewController {
                 //Success
                 print("Registration Successful")
                 SVProgressHUD.dismiss()
-                
                 self.performSegue(withIdentifier: "goToChat", sender: self)
                 
             }

@@ -159,7 +159,7 @@
                         <outlet property="emailTextfield" destination="M1R-HS-xgc" id="EZN-co-Khq"/>
                         <outlet property="passwordTextfield" destination="SYb-Xx-USU" id="pWb-Ds-G8q"/>
                         <segue destination="vXZ-lx-hvc" kind="push" identifier="goToChat" id="mOy-cb-hAN"/>
-                        <segue destination="fgg-Do-Jm3" kind="push" id="JcL-fI-B4O"/>
+                        <segue destination="fgg-Do-Jm3" kind="push" identifier="goToContact" id="JcL-fI-B4O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zMZ-W7-skD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -416,7 +416,7 @@
         <image name="background1" width="1800" height="1192"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="rRW-Qd-PQi"/>
-        <segue reference="ESs-tU-fp4"/>
+        <segue reference="mOy-cb-hAN"/>
+        <segue reference="JcL-fI-B4O"/>
     </inferredMetricsTieBreakers>
 </document>
