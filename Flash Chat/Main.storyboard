@@ -292,7 +292,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Isd-bt-lTy"/>
+                    <navigationItem key="navigationItem" id="Isd-bt-lTy">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="jYD-lf-g9A">
+                            <connections>
+                                <action selector="addContact:" destination="fgg-Do-Jm3" id="E3k-4G-OmN"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="myTable" destination="xsT-m7-tLc" id="d6y-nR-9Xs"/>
                     </connections>

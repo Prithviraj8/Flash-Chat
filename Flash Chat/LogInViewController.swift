@@ -43,7 +43,7 @@ class LogInViewController: UIViewController {
             }
             
         }
-        performSegue(withIdentifier: "goToContact", sender: self)
+        performSegue(withIdentifier: "goToChat", sender: self)
         
     }
     

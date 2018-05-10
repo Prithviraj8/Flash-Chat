@@ -23,11 +23,11 @@ class RegisterViewController: UIViewController {
         super.viewDidLoad()
     }
 
-    override func viewDidAppear(_ animated: Bool) {
-        if (Auth.auth().currentUser != nil) {
-            performSegue(withIdentifier: "ContactCell", sender: nil)
-        }
-    }
+//    override func viewDidAppear(_ animated: Bool) {
+//        if (Auth.auth().currentUser != nil) {
+//            performSegue(withIdentifier: "ContactCell", sender: nil)
+//        }
+//    }
 
   
     @IBAction func registerPressed(_ sender: AnyObject) {
@@ -49,7 +49,7 @@ class RegisterViewController: UIViewController {
                 //Success
                 print("Registration Successful")
                 SVProgressHUD.dismiss()
-                self.performSegue(withIdentifier: "goToChat", sender: self)
+                self.performSegue(withIdentifier: "goToContact", sender: self)
                 
             }
         }

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ContactsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -34,12 +35,16 @@ class ContactsViewController: UIViewController, UITableViewDelegate, UITableView
         return cell
 
     }
-    
-    
-    func getContact() {
+
+    func getContact(contacts: [Contact]) {
         
     }
-    
+ 
+    @IBAction func addContact(_ sender: UIBarButtonItem) {
+        
+        let contactDB = Database.database().reference().child("Contacts")
+        
+}
     @IBAction func logout(_ sender: Any) {
         dismiss(animated: true, completion: nil)
         
