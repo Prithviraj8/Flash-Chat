@@ -10,7 +10,8 @@ target 'Flash Chat' do
    pod 'Firebase/Database'
    pod 'SVProgressHUD'
    pod 'ChameleonFramework'
-
+   pod 'RealmSwift' 
+   
 end
 
 post_install do |installer|
