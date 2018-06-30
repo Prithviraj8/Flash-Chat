@@ -3,7 +3,6 @@
 //  Flash Chat
 //
 //  Created by Prithviraj Murthy on 09/05/18.
-//  Copyright © 2018 London App Brewery. All rights reserved.
 //
 
 import Foundation
