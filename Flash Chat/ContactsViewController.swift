@@ -3,7 +3,6 @@
 //  Flash Chat
 //
 //  Created by ts krishna on 01/04/18.
-//  Copyright © 2018 London App Brewery. All rights reserved.
 //
 
 import UIKit
